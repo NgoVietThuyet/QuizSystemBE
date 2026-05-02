@@ -23,12 +23,9 @@ using (var scope = app.Services.CreateScope())
 }
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+// Đưa ra ngoài để lúc nào cũng xem được giao diện API
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 
 var summaries = new[]
