@@ -1,0 +1,78 @@
+# Build output
+**/bin/
+**/obj/
+
+# Publish output
+**/publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Visual Studio cache files
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+
+# Entity Framework / EF Core
+**/Migrations/**/*.Designer.cs
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+
+# User secrets and local settings
+secrets.json
+appsettings.Development.json
+
+# Tool directories
+.tool/
+
+# Generated static web assets
+**/wwwroot/**/*.staticwebassets.*
+
+# Resharper
+_ReSharper*/
+
+# Others
+*.sublime-workspace
+*.pidb
